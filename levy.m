@@ -9,20 +9,9 @@
 % Output 
 % z     -> 'n' levy steps in 'm' dimension
 %_________________________________________________________________________
-%  Marine Predators Algorithm source code (Developed in MATLAB R2015a)
+%  A quasi-opposition learning and Q-learning based marine predators algorithm for global continuous optimization problems
 %
-%  programming: Afshin Faramarzi & Seyedali Mirjalili
-%
-% paper:
-%  A. Faramarzi, M. Heidarinejad, S. Mirjalili, A.H. Gandomi, 
-%  Marine Predators Algorithm: A Nature-inspired Metaheuristic
-%  Expert Systems with Applications
-%  DOI: doi.org/10.1016/j.eswa.2020.113377
-%  
-%  E-mails: afaramar@hawk.iit.edu            (Afshin Faramarzi)
-%           muh182@iit.edu                   (Mohammad Heidarinejad)
-%           ali.mirjalili@laureate.edu.au    (Seyedali Mirjalili) 
-%           gandomi@uts.edu.au               (Amir H Gandomi)
+%  programming: Yulu Wu
 %_________________________________________________________________________
 
 function [z] = levy(n,m,beta)
