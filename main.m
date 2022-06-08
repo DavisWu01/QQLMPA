@@ -18,7 +18,7 @@ SearchAgents_no=25; % Number of search agents
 state_num=3;
 action_num=3;
 t=0;
-Function_name='F5';
+Function_name='F5'; %including test function 'F5' and the Speed reducer design 'P11'
 NUM=30;
 
    
@@ -46,5 +46,5 @@ title(Function_name)
 xlabel('Iteration');
 ylabel('Best score obtained so far');
 legend('QQLMPA')
-display(['QQLMPA :', num2str(QQLMPA_Avg,4)]);
+display(['Avg score of QQLMPA :', num2str(QQLMPA_Avg,4)]);
 disp(sprintf('--------------------------------------'));
